@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <item
+        android:id="@+id/LinearViewHorizontal"
+        android:title="LinearViewHorizontal"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/LinearViewVertical"
+        android:title="LinearViewVertical"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/gridView"
+        android:title="gridView"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/staggeredViewHorizontal"
+        android:title="staggeredViewHorizontal"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/staggeredViewVertical"
+        android:title="staggeredViewVertical"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>
